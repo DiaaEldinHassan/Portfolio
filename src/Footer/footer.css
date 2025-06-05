@@ -15,20 +15,21 @@
 }
 .footer button
 {
-    width: 20svh;
+    width: 30svh;
     height: 3svh;
     color: white;
+    border: none;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    border-radius: 0;
     transition: .2s linear;
     font-size: 20px;
 }
 .footer a
 {
-    width: 100px;
+    width: fit-content;
     height: fit-content;
     cursor: pointer;
-    border: none;
-    border-right: 2px solid white;
-    border-left: 2px solid white;
     background-color: transparent;
     text-decoration: none;
     width: fit-content;
