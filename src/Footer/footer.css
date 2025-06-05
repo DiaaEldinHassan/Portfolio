@@ -24,6 +24,9 @@
     border-radius: 0;
     transition: .2s linear;
     font-size: 20px;
+    justify-content: center;
+    place-items: center;
+    text-align: center;
 }
 .footer a
 {
@@ -37,6 +40,10 @@
     cursor: pointer;
     margin-top: 2%;
     font-size: 10px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    text-align: center;
 }
 .icons
 {

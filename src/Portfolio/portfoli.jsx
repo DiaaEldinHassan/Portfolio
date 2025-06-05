@@ -57,7 +57,7 @@ export default function Portfolio() {
         </div>
         <div className="card">
           <img
-            src="https://private-user-images.githubusercontent.com/102254510/287807714-1b2bcedd-9371-4047-b138-4c1229001a6d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDkxMjY4ODEsIm5iZiI6MTc0OTEyNjU4MSwicGF0aCI6Ii8xMDIyNTQ1MTAvMjg3ODA3NzE0LTFiMmJjZWRkLTkzNzEtNDA0Ny1iMTM4LTRjMTIyOTAwMWE2ZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYwNVQxMjI5NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yOWEwNWU0YTRmZTA1N2M3Y2M1MTc2YmJkNjdhZDdlMGE4NTZjMTUwZjMxMzFiYzA2N2IwOGM3NTQ3NzRmNzk5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.42cWDMzn9WbY5-_pkISWGYH44Ailenj4SHPoqstvDUs"
+            src="https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?cs=srgb&dl=pexels-jplenio-1118873.jpg&fm=jpg"
             alt="Project Image"
           />
           <h2>🌦️ Weather App – Real-Time Weather with JavaScript & EJS</h2>
