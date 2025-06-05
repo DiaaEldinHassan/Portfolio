@@ -111,6 +111,7 @@
     overflow-x: scroll;
     scrollbar-color: var(--darkGrey) transparent;
     gap: 5%;
+    margin: 3%;
 }
 .card:hover
 {

@@ -1,7 +1,7 @@
 .tnav
 {
     display: none !important;
-    background-color: rgba(29, 29, 29,.9);
+    background-color: rgb(29, 29, 29);
     justify-content: center;
     display: flex;
     place-items: center;
