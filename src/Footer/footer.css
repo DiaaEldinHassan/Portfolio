@@ -17,17 +17,19 @@
 {
     width: 20svh;
     height: 3svh;
-    border: none;
-    border-right: 2px solid white;
-    border-left: 2px solid white;
-    background-color: transparent;
     color: white;
-    cursor: pointer;
     transition: .2s linear;
     font-size: 20px;
 }
 .footer a
 {
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    border: none;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    background-color: transparent;
     width: fit-content;
     align-self: center;
     cursor: pointer;
