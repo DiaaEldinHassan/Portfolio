@@ -33,11 +33,7 @@ export default function Footer() {
         </a>
       </div>
       <h6>
-        <i className="fa-solid fa-copyright">
-          {" "}
-          Coded By{" "}
-          <span style={{ color: "red" }}>
-            <a href="https://github.com/DiaaEldinHassan">DiaaEldinHassan</a>
+        <i className="fa-solid fa-copyright"> Coded By<span style={{ color: "red" }}> <a href="https://github.com/DiaaEldinHassan">DiaaEldinHassan</a>
           </span>
         </i>
       </h6>

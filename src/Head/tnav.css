@@ -1,7 +1,7 @@
 .tnav
 {
     display: none !important;
-    background-color: #1d1d1d;
+    background-color: rgba(29, 29, 29,.9);
     justify-content: center;
     display: flex;
     place-items: center;
@@ -24,5 +24,14 @@
     .tnav
     {
         display: block !important;
+    }
+}
+@media screen and (max-width:650px) {
+    .timg
+    {
+    display: none;
+    }
+    .tbtns{
+        display: none;
     }
 }

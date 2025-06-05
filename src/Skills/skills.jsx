@@ -10,7 +10,7 @@ function Skills() {
     <div className="skills" >
       <h1 className="about"id="about">About Me</h1>
 
-      <p>
+      <p style={{margin:"10%"}}>
         I'm a ReactJS developer with a strong focus on building scalable,
         maintainable, and well-designed web applications. I combine modern
         front-end technologies with best practices to create solutions that are
