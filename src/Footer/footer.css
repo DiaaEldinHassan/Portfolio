@@ -23,13 +23,14 @@
 }
 .footer a
 {
-    width: fit-content;
+    width: 100px;
     height: fit-content;
     cursor: pointer;
     border: none;
     border-right: 2px solid white;
     border-left: 2px solid white;
     background-color: transparent;
+    text-decoration: none;
     width: fit-content;
     align-self: center;
     cursor: pointer;
@@ -48,10 +49,11 @@
 {
     font-size: 30px;
 }
-.footer a
+.footer a:hover
 {
-    text-decoration: none;
-    color: inherit;
+    
+    background-color: white;
+    color: black;
 }
 .footer button:hover
 {
