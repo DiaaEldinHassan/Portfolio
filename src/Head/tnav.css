@@ -1,0 +1,28 @@
+.tnav
+{
+    display: none !important;
+    background-color: #1d1d1d;
+    justify-content: center;
+    display: flex;
+    place-items: center;
+}
+.tbtns
+{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+.tnav a
+{
+    color: white;
+    border-radius: 0;
+}
+.tnav a:hover{
+    background-color: transparent;
+}
+@media screen and (max-width:800px) {
+    .tnav
+    {
+        display: block !important;
+    }
+}

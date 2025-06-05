@@ -1,0 +1,59 @@
+.footer
+{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 2% 0;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.footer svg
+{
+    align-self: center;
+}
+.footer button
+{
+    width: 20svh;
+    height: 3svh;
+    border: none;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: .2s linear;
+    font-size: 20px;
+}
+.footer a
+{
+    width: fit-content;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.icons
+{
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    justify-content: center;
+}
+.icons i
+{
+    font-size: 30px;
+}
+.footer a
+{
+    text-decoration: none;
+    color: inherit;
+}
+.footer button:hover
+{
+    background-color: white;
+    color: black;
+    width: 22svh;
+    height: 4svh;
+}

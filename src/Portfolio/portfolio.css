@@ -1,0 +1,127 @@
+:root {
+  --darkGrey: #1a1a1a;
+  --lightGrey:#C4C4C4;
+    --Grey:#8B8B8B;
+    --paleGrey:#909090;
+}
+.portfolio {
+  background-color: var(--darkGrey);
+  color: rgb(192, 177, 177);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.landscape
+{
+    background: url("https://images.pexels.com/photos/724712/pexels-photo-724712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 321px;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+.landscape h1
+{
+  margin: 0;
+  color: white;
+}
+.cardWraper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:2%;
+  justify-content: center;
+  margin: 5% 0;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 40svh;
+  height: 600px;
+  padding: 3%;
+  margin: 2%;
+  border-radius: 15px;
+  background-color: grey;
+  text-align: left;
+  box-shadow: 1px 1px 5px white;
+  transition: .2s linear;
+}
+.card img
+{
+    border-radius: 15px;
+    height: 200px;
+}
+.card a
+{
+    color: inherit;
+    text-decoration: none;
+}
+.card button
+{
+    width: 100%;
+    height: 4svh;
+    border-radius: 15px;
+    border: none;
+    align-self: center;
+    cursor: pointer;
+}
+.describtion
+{
+    width: 100% !important;
+    margin-top: 0;
+    overflow-y: scroll;
+    height: 13svh;
+    scrollbar-color: var(--darkGrey) transparent ;
+}
+.techn
+{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    padding: 2%;
+    text-align: center;
+    width: fit-content !important;
+    font-size: 15px !important;
+    height: 2svh !important;
+    border-radius: 15px;
+    background-color: var(--darkGrey);
+    color: white;
+}
+.tWraper
+{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+    scrollbar-color: var(--darkGrey) transparent;
+    gap: 5%;
+}
+.card:hover
+{
+  width: 41svh;
+  height: 610px;
+   box-shadow: 1px 1px 5px var(--darkGrey);
+}
+@media screen and (max-width:800px) {
+  .card
+  {
+    width: 70%;
+    box-shadow: none;
+    padding: 5%;
+    margin: 3% 0;
+    justify-content: center;
+  }
+  .card:hover
+  {
+    width: 70%;
+    height: fit-content;
+    box-shadow: none;
+  }
+  .card img{
+    width: 100%;
+    align-self: center;
+  }
+}
