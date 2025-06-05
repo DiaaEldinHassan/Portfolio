@@ -19,14 +19,11 @@
     height: 3svh;
     color: white;
     border: none;
-    border-right: 2px solid white;
-    border-left: 2px solid white;
+
     border-radius: 0;
     transition: .2s linear;
     font-size: 20px;
-    justify-content: center;
-    place-items: center;
-    text-align: center;
+    
 }
 .footer a
 {
@@ -41,9 +38,6 @@
     margin-top: 2%;
     font-size: 10px;
     display: flex;
-    justify-content: center;
-    place-items: center;
-    text-align: center;
 }
 .icons
 {
@@ -57,15 +51,4 @@
 {
     font-size: 30px;
 }
-.footer a:hover
-{
-    
-    background-color: white;
-    color: black;
-}
-.footer button:hover
-{
-    background-color: white;
-    color: black;
-    
-}
+
