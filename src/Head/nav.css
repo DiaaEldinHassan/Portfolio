@@ -56,46 +56,6 @@
     color: var(--Grey) !important;
 }
 
-.collapse
-{
-    display: none !important;
-
-}
-.drop
-{
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 50px;
-    right: 0px;
-    z-index: 1;
-    background-color: rgba(0, 0, 0,.5);
-    color: white;
-    width: 20svh;
-    height: 30svh;
-    padding: 0;
-    border-radius: 15px;
-}
-.drop button
-{
-    width: 100%;
-    border-radius: 0;
-    box-shadow: none;
-}
-.drop button:hover
-{
-    box-shadow: none;
-}
-.drop .contact:hover
-{
-    box-shadow: none !important;
-}
-ul
-{
-    display: none;
-}
 .tbutton
 {
     height: 4svh;
@@ -106,21 +66,5 @@ ul
     {
         display: none;
     }
-    .collapse
-    {
-        display: inline !important;
-        position: relative !important;
-        place-items: end !important;
-        top: 0px;
-        right: 0px;
-        width: fit-content !important;
-        box-shadow: none;
-        
-    }
-    .collapse:hover
-    {
-        box-shadow: none !important;
-  background-color: transparent !important;
-  color: black;
-    }
+    
 }
