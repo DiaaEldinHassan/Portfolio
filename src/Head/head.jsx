@@ -12,7 +12,7 @@ function Head() {
       <Nav />
       <div className="lhead">
         <div className="brand">
-          <img src={sign} alt="signing" className="sign" />
+         <a href="#head"><img src={sign} alt="signing" className="sign" /></a>
         </div>
         <div className="hText">
           <h2>Hi I'm </h2>
