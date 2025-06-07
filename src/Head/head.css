@@ -156,7 +156,7 @@
   /* Left side Buttons */
   .btns {
     justify-content: center;
-
+    width: 100%;
     margin: 0;
   }
   .btns button {
