@@ -75,6 +75,11 @@
   margin: 6%;
   margin-left: 0;
 }
+.btns a
+{
+    height: 3rem;
+    width: 15%;
+}
 .btns button {
   background-color: transparent;
   display: flex;
@@ -83,8 +88,8 @@
 
   border-radius: 10px;
   box-shadow: 0px 1px 4px black;
-  height: 6svh;
-  width: 6svh;
+  height: 100%;
+  width: 100%;
   font-size: 2em;
   cursor: pointer;
   transition: 0.2s linear;
