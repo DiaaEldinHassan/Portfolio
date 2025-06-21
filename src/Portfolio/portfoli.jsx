@@ -1,11 +1,12 @@
 import React from "react";
+import ecommerce from "../assets/ecommerce.png"
 import "./portfolio.css";
 
 export default function Portfolio() {
   let sis = ["Flutter", "Dart", "Firebase", "Arduino", "IoT"];
   let keeper = ["Javascript", "CSS", "React"];
   let weather = ["Javascript", "EJS", "API", "nodeJs", "Express.js", "CSS"];
-  let plant = ["Dart", "Flutter", "TTS"];
+  let commerce = ["HTML", "CSS", "JavaScript", "React", "Tailwind"];
   return (
     <div className="portfolio" id="portfolio">
       <div className="landscape">
@@ -78,19 +79,21 @@ export default function Portfolio() {
         </div>
         <div className="card">
           <img
-            src="https://i.pinimg.com/736x/30/14/0a/30140a806e08830b002b7bb9bafc0b91.jpg"
+            loading="lazy"
+            src={ecommerce}
             alt="Project Image"
           />
-          <h2>🛒 Plant Shop App – Flutter with Text-to-Speech</h2>
+          <h2>🛒 E-Commerce Web Application</h2>
           <p className="describtion">
-            A beautifully designed Flutter app for browsing and buying plants,
-            enhanced with Text-to-Speech (TTS) capabilities for an accessible
-            and interactive user experience. real-time weather data.This app
-            combines modern e-commerce UI with accessibility in mind, making
-            plant shopping easy, inclusive, and enjoyable.
+            A modern, fully responsive e-commerce web application built with
+            React, React Router, and Tailwind CSS. This project includes dynamic
+            product browsing, a user-friendly authentication interface, and a
+            functional store locator. Designed with a clean, mobile-first
+            layout, it's ideal as a showcase project or a solid foundation for
+            developing full-featured online stores.
           </p>
           <div className="tWraper">
-            {plant.map((s) => {
+            {commerce.map((s) => {
               return <p className="techn">{s}</p>;
             })}
           </div>
