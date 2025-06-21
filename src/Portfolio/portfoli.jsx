@@ -98,7 +98,7 @@ export default function Portfolio() {
             })}
           </div>
           <a
-            href="https://github.com/DiaaEldinHassan/plant_app_mm"
+            href="https://e-commerce-gules-psi.vercel.app/"
             target="_blank"
           >
             <button>Go</button>
