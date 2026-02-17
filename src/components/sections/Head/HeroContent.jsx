@@ -19,7 +19,7 @@ const HeroContent = () => {
 
       <div className="space-y-3">
         <h5 className="text-xl sm:text-2xl lg:text-3xl text-[#C4C4C4] font-['VT323'] tracking-wide">
-          React.js Developer
+          Full Stack Web Developer
         </h5>
         <div className="w-20 sm:w-24 h-1 bg-gradient-to-r from-[#C4C4C4] to-transparent rounded-full"></div>
       </div>
