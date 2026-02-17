@@ -1,11 +1,18 @@
 import React from "react";
-import ecommerce from "../assets/ecommerce.png"
+import ecommerce from "../assets/ecommerce.png";
 import "./portfolio.css";
 
 export default function Portfolio() {
   let sis = ["Flutter", "Dart", "Firebase", "Arduino", "IoT"];
-  let keeper = ["Javascript", "CSS", "React"];
-  let weather = ["Javascript", "EJS", "API", "nodeJs", "Express.js", "CSS"];
+  let notes = [
+    "React",
+    "Tailwind",
+    "NodeJS",
+    "Express",
+    "JWT",
+    "Google Authentication",
+  ];
+  let weather = ["Javascript", "EJS", "API", "NodeJs", "Express", "CSS"];
   let commerce = ["HTML", "CSS", "JavaScript", "React", "Tailwind"];
   return (
     <div className="portfolio" id="portfolio">
@@ -37,22 +44,23 @@ export default function Portfolio() {
         </div>
         <div className="card">
           <img
-            src="https://github.com/DiaaEldinHassan/Keeper/raw/main/src/assets/Screenshots/k1.png"
+            src="https://github.com/DiaaEldinHassan/Notes-App/blob/main/screenshots/dashboard.png"
             alt="Project Image"
           />
           <h2>📝 Keeper App – Simple, Stylish, and Functional</h2>
           <p className="describtion">
-            A clean and modern React application that lets users add, view, and
-            delete notes with ease. Built using functional components and React
-            Hooks, this app offers a smooth and responsive user experience with
-            a minimalist design.
+            A full-stack notes/blog management application with user
+            authentication, built with React and Node.js/Express.
           </p>
           <div className="tWraper">
-            {keeper.map((s) => {
+            {notes.map((s) => {
               return <p className="techn">{s}</p>;
             })}
           </div>
-          <a href="https://github.com/DiaaEldinHassan/Keeper" target="_blank">
+          <a
+            href="https://github.com/DiaaEldinHassan/Notes-App.git"
+            target="_blank"
+          >
             <button>Go</button>
           </a>
         </div>
@@ -78,11 +86,7 @@ export default function Portfolio() {
           </a>
         </div>
         <div className="card">
-          <img
-            loading="lazy"
-            src={ecommerce}
-            alt="Project Image"
-          />
+          <img loading="lazy" src={ecommerce} alt="Project Image" />
           <h2>🛒 E-Commerce Web Application</h2>
           <p className="describtion">
             A modern, fully responsive e-commerce web application built with
@@ -97,10 +101,7 @@ export default function Portfolio() {
               return <p className="techn">{s}</p>;
             })}
           </div>
-          <a
-            href="https://e-commerce-gules-psi.vercel.app/"
-            target="_blank"
-          >
+          <a href="https://e-commerce-gules-psi.vercel.app/" target="_blank">
             <button>Go</button>
           </a>
         </div>
