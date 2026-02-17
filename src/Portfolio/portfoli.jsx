@@ -47,7 +47,7 @@ export default function Portfolio() {
             src="https://github.com/DiaaEldinHassan/Notes-App/blob/main/screenshots/dashboard.png"
             alt="Project Image"
           />
-          <h2>📝 Keeper App – Simple, Stylish, and Functional</h2>
+          <h2>📝 Notes – Simple, Stylish, and Functional</h2>
           <p className="describtion">
             A full-stack notes/blog management application with user
             authentication, built with React and Node.js/Express.
