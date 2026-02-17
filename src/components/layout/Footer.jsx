@@ -31,7 +31,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold text-[#C4C4C4]">Diaa Hassan</h3>
             <p className="text-[#909090] text-sm leading-relaxed">
-              React.js developer crafting elegant and performant web experiences with modern JavaScript.
+              Full-Stack developer crafting elegant and performant web experiences with modern JavaScript.
             </p>
             <div className="flex items-center gap-3 pt-2">
               {socialLinks.map((link, index) => (

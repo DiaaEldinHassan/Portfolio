@@ -11,12 +11,16 @@ const AboutText = () => {
           </div>
           <h2 className="text-2xl font-bold text-[#C4C4C4]">My Journey</h2>
         </div>
-        
+
         <p className="text-[#909090] text-lg leading-relaxed">
-          I'm a <span className="text-[#C4C4C4] font-semibold">ReactJS developer</span> with a strong focus on building scalable,
-          maintainable, and well-designed web applications. I combine modern
-          front-end technologies with best practices to create solutions that are
-          both robust and user-friendly.
+          I'm a{" "}
+          <span className="text-[#C4C4C4] font-semibold">
+           Full-Stack Developer
+          </span>{" "}
+           focused on Backend Engineering. I build secure
+          APIs, scalable server architectures, and efficient database systems
+          using Node.js and Express — while delivering clean frontend
+          experiences with React and Tailwind.
         </p>
 
         <Stats />
