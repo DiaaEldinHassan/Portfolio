@@ -1,18 +1,22 @@
-import { useState } from 'react';
-import Head from './Head/head';
-import Me from './About me/me';
-import Skills from './Skills/skills';
-import Footer from './Footer/footer';
+import React from "react";
+import Head from "./components/sections/Head";
+import About from "./components/sections/About";
+import Skills from "./components/sections/Skills";
+import Tools from "./components/sections/Tools";
+import Portfolio from "./components/sections/Portfolio";
+import Layout from "./components/layout/Layout";
+import "./styles/globals.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return <div>
-   <Head />
-   <Me />
-   <Skills />
-   <Footer />
-  </div>
+  return (
+    <Layout>
+      <Head />
+      <About />
+      <Skills />
+      <Tools />
+      <Portfolio />
+    </Layout>
+  );
 }
 
-export default App
+export default App;

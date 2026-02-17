@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply overflow-x-hidden w-full m-0 p-0 relative scroll-smooth;
+  }
+  
+  body {
+    @apply overflow-y-auto bg-[#1a1a1a];
+  }
+  
+  #root {
+    @apply w-full overflow-x-hidden relative;
+  }
+  
+  * {
+    @apply max-w-full box-border;
+  }
+}
+
+@layer components {
+  .container {
+    @apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section {
+    @apply w-full py-20 md:py-24 lg:py-28;
+  }
+  
+  .section-title {
+    @apply text-4xl sm:text-5xl font-bold text-[#C4C4C4] mb-6;
+  }
+  
+  .section-subtitle {
+    @apply text-[#909090] text-lg max-w-2xl mx-auto;
+  }
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+section, div[id] {
+  scroll-margin-top: 80px;
+}
