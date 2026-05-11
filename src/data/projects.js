@@ -5,7 +5,7 @@ export const projects = [
   {
     title: "🍽️ Food Order - Full Stack Online Food Ordering App 🍽️",
     description: "A full-stack online food ordering platform built with **React 19**, **Express 5**, and **MongoDB**. Users can browse restaurants, order food, track deliveries, and manage their profile — with admin controls for restaurants and menu items.",
-    image: "https://github.com/DiaaEldinHassan/Online-Food-Order-App/blob/6de1a0acb65ea46075d619cc03c962ca93104609/Screenshots/mainPage.png",
+    image: "https://github.com/DiaaEldinHassan/Online-Food-Order-App/blob/main/Screenshots/mainPage.png",
     technologies: ["nodejs", "express", "react", "mongodb", "tailwindcss", "s3", "aws", "jwt", "zod"],
     link: "https://github.com/DiaaEldinHassan/Online-Food-Order-App.git",
     fallbackColor: "from-orange-400 to-white-500"
@@ -13,7 +13,7 @@ export const projects = [
   {
     title: "💬 Sarahah Anonymous Messaging App – A Full Stack Web App",
     description: "A full-stack anonymous messaging application where users can receive honest, anonymous messages from anyone. Built with React on the frontend and Node.js/Express on the backend.",
-    image: "https://github.com/DiaaEldinHassan/Anonymous-Messages/blob/760bc4918d838689bef0d1c227b7bb70b7dd28f3/Screenshots/Landing%20Page.png",
+    image: "https://github.com/DiaaEldinHassan/Anonymous-Messages/blob/main/Screenshots/Landing%20Page.png",
     technologies: ["nodejs", "express", "react", "mongodb", "tailwindcss", "2fa"],
     link: "https://github.com/DiaaEldinHassan/SIS",
     fallbackColor: "from-green-400 to-blue-500"
