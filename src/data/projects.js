@@ -1,5 +1,4 @@
-import ecommerce from "../assets/ecommerce.png";
-
+import social from "../assets/Mock Social.png"
 export const projects = [
   {
     title: "🍽️ Food Order - Full Stack Online Food Ordering App 🍽️",
@@ -20,6 +19,26 @@ export const projects = [
     ],
     link: "https://github.com/DiaaEldinHassan/Online-Food-Order-App.git",
     fallbackColor: "from-orange-400 to-white-500",
+  },
+  ,
+  {
+    title: "🛒 E-Commerce Web Application - A Full Stack App",
+    description:
+      "A full-stack e-commerce application built with a GraphQL + REST hybrid API, React, MongoDB, and AWS S3. It supports three user roles — Customer, Seller, and Admin — each with their own dedicated experience.",
+    image: "https://github.com/DiaaEldinHassan/Ecommerce/blob/main/Screenshots/HomePage.png?raw=true",
+    technologies: ["nodejs","graphql", "express", "reactjs", "s3", "multer", "tailwindcss"],
+    link: "https://github.com/DiaaEldinHassan/Ecommerce.git",
+    fallbackColor: "from-purple-400 to-pink-500",
+  },
+  ,
+  {
+    title: "💻 Social Media App - A Full Stack App",
+    description:
+      "A full-stack social media platform built with the MERN stack that allows users to connect, share posts, interact with others, and communicate in real time. The application provides a modern and responsive user experience with features inspired by popular social media platforms.",
+    image: social,
+    technologies: ["nodejs" ,"jwt", "express" ,"typescript", "mongodb", "reactjs", "mongoose", "aws-s3" ,"multer" ,"googleauth", "tailwindcss" ,"vite" ,"bcrypt", "zod", "socketio"],
+    link: "https://github.com/DiaaEldinHassan/Social-Media-App.git",
+    fallbackColor: "from-purple-400 to-pink-500",
   },
   {
     title: "💬 Sarahah Anonymous Messaging App – A Full Stack Web App",
@@ -48,14 +67,5 @@ export const projects = [
     technologies: ["Flutter", "Dart", "Firebase", "Arduino", "IoT"],
     link: "https://github.com/DiaaEldinHassan/SIS",
     fallbackColor: "from-green-400 to-blue-500",
-  },
-  {
-    title: "🛒 E-Commerce Web Application - Frontend Web App",
-    description:
-      "A modern, fully responsive e-commerce web application built with React, React Router, and Tailwind CSS.",
-    image: ecommerce,
-    technologies: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
-    link: "https://e-commerce-gules-psi.vercel.app/",
-    fallbackColor: "from-purple-400 to-pink-500",
-  },
+  }
 ];
