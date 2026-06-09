@@ -27,7 +27,7 @@ export const skills = [
 ];
 
 export const techStack = [
-  "React", "JavaScript", "TypeScript", "Node.js", "Express",
+  "React", "JavaScript", "TypeScript", "Node.js", "Express","GraphQL","Socket.io",
   "Tailwind CSS", "Git", "REST APIs", "Firebase", "MongoDB",
   "HTML5", "CSS3", "Figma", "Jest", "Webpack"
 ];
